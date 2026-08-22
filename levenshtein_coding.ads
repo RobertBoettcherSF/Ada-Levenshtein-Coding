@@ -1,5 +1,4 @@
 package Levenshtein_Coding is
-   pragma Pure;
 
    -- Using Long_Long_Integer to robustly support large 64-bit values
    subtype Value_Type is Long_Long_Integer range 0 .. Long_Long_Integer'Last;
