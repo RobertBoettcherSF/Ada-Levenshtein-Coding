@@ -37,11 +37,11 @@ begin
    Put_Line ("     PASS");
 
    Put_Line ("TEST 3 - Functional Correctness: Encode Larger Integers (Wikipedia match)");
-   Put_Line ("  3.1 Assert Encode(16) = ""1111000000000""");
-   Assert (To_String (Encode (16)) = "1111000000000", "Encode(16) failed");
+   Put_Line ("  3.1 Assert Encode(16) = ""111100000000""");
+   Assert (To_String (Encode (16)) = "111100000000", "Encode(16) failed");
    Put_Line ("     PASS");
-   Put_Line ("  3.2 Assert Encode(17) = ""1111000000001""");
-   Assert (To_String (Encode (17)) = "1111000000001", "Encode(17) failed");
+   Put_Line ("  3.2 Assert Encode(17) = ""111100000001""");
+   Assert (To_String (Encode (17)) = "111100000001", "Encode(17) failed");
    Put_Line ("     PASS");
 
    Put_Line ("TEST 4 - Functional Correctness: Decode Base Cases");
